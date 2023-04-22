@@ -1,6 +1,5 @@
 import { Container, Row, Col } from "react-bootstrap";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
-import 'animate.css';
 import SpaceBackground from './SpaceBackground';
 
 
