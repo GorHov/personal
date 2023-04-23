@@ -1,6 +1,5 @@
 import { Container, Row, Col } from "react-bootstrap";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
-import SpaceBackground from './SpaceBackground';
 
 
 export const Banner = () => {

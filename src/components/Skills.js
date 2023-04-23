@@ -13,6 +13,7 @@ function Word({ children, ...props }) {
   };
   const ref = useRef();
   const [hovered, setHovered] = useState(false);
+  // eslint-disable-next-line no-sequences
   const over = (e) => (e.stopPropagation(), setHovered(true));
   const out = () => setHovered(false);
   // Change the mouse cursor on hover
