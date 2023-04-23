@@ -3,6 +3,8 @@ import { ArrowRightCircle } from 'react-bootstrap-icons';
 
 
 export const Banner = () => {
+console.log('works2')
+
   return (
     <section className="banner" id="home">
       <Container>

@@ -5,6 +5,8 @@ import navIcon3 from "../assets/img/nav-icon3.svg";
 import { Link } from "react-router-dom";
 
 export const Footer = () => {
+console.log('works5')
+
   return (
     <footer className="footer">
       <Container>

@@ -4,6 +4,9 @@ import contactImg from "../assets/img/contact-img.svg";
 import TrackVisibility from 'react-on-screen';
 
 export const Contact = () => {
+
+console.log('works4')
+
   const formInitialDetails = {
     firstName: '',
     lastName: '',

@@ -11,6 +11,7 @@ import {
 import { Link } from "react-router-dom";
 
 export const NavBar = () => {
+  console.log('works1')
 
   const [activeLink, setActiveLink] = useState('home');
   const [scrolled, setScrolled] = useState(false);
