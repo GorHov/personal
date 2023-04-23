@@ -1,11 +1,9 @@
 import { Container, Row, Col } from "react-bootstrap";
-// import navIcon1 from "../assets/img/nav-icon1.svg";
-// import navIcon2 from "../assets/img/nav-icon2.svg";
-// import navIcon3 from "../assets/img/nav-icon3.svg";
-// import { Link } from "react-router-dom";
+import navIcon1 from "../assets/img/nav-icon1.svg";
+import navIcon2 from "../assets/img/nav-icon2.svg";
+import navIcon3 from "../assets/img/nav-icon3.svg";
 
 export const Footer = () => {
-console.log('works5')
 
   return (
     <footer className="footer">
@@ -15,9 +13,9 @@ console.log('works5')
           </Col>
           <Col size={12} sm={6} className="text-center text-sm-end">
             <div className="social-icon">
-              {/* <Link to="#"><img src={navIcon1} alt="Icon" /></Link>
-              <Link to="#"><img src={navIcon2} alt="Icon" /></Link>
-              <Link to="#"><img src={navIcon3} alt="Icon" /></Link> */}
+              <a><img src={navIcon1} alt="Icon" /></a>
+              <a><img src={navIcon2} alt="Icon" /></a>
+              <a><img src={navIcon3} alt="Icon" /></a>
             </div>
           </Col>
         </Row>

@@ -5,8 +5,6 @@ import TrackVisibility from 'react-on-screen';
 
 export const Contact = () => {
 
-console.log('works4')
-
   const formInitialDetails = {
     firstName: '',
     lastName: '',

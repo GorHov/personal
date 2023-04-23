@@ -4,8 +4,6 @@ import * as random from 'maath/random/dist/maath-random.esm'
 import { useRef, useState } from 'react'
 
 
-console.log('works')
-
 export default function SpaceBackground() {
   return (
     <div style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}>

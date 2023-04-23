@@ -13,8 +13,6 @@ import { About } from "./About";
 
 export const Projects = () => {
 
-console.log('works3')
-
   const projects = [
     {
       title: "Development",
